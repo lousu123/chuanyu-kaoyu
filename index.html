@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no">
+<title>川渝煎锅鱼烤鱼 · 全案运营方案</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:#f7f4f0;color:#2d2d2d;line-height:1.8}
+.cover{background:linear-gradient(135deg,#CC0000 0%,#FF4500 50%,#FF6347 100%);color:#fff;padding:55px 24px;text-align:center;position:relative;overflow:hidden}
+.cover::before{content:'';position:absolute;top:-50px;right:-50px;width:220px;height:220px;border-radius:50%;background:rgba(255,255,255,0.06)}
+.cover::after{content:'';position:absolute;bottom:-70px;left:-70px;width:180px;height:180px;border-radius:50%;background:rgba(255,255,255,0.05)}
+.cover .tag{display:inline-block;background:rgba(255,255,255,0.2);padding:6px 20px;border-radius:50px;font-size:13px;letter-spacing:2px;margin-bottom:20px}
+.cover h1{font-size:clamp(2rem,5vw,3.2rem);font-weight:800;margin-bottom:8px;letter-spacing:2px}
+.cover .sub{font-size:16px;opacity:.92;margin-bottom:16px}
+.cover .meta{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:24px}
+.cover .meta span{background:rgba(255,255,255,0.15);padding:6px 16px;border-radius:8px;font-size:13px}
+.container{max-width:1000px;margin:0 auto;padding:0 20px}
+.section{padding:45px 0}
+.section-title{font-size:clamp(1.4rem,3vw,1.8rem);font-weight:700;color:#CC0000;margin-bottom:8px;display:flex;align-items:center;gap:10px}
+.section-subtitle{color:#999;font-size:14px;margin-bottom:30px;padding-bottom:14px;border-bottom:2px solid #f0e0d5}
+.card{background:#fff;border-radius:14px;padding:24px;margin-bottom:18px;box-shadow:0 2px 16px rgba(0,0,0,0.05);border-left:4px solid #FF6347}
+.card h3{font-size:1.1rem;font-weight:600;color:#CC0000;margin-bottom:10px;display:flex;align-items:center;gap:8px}
+.card h3 .badge{background:#FF6347;color:#fff;font-size:10px;padding:2px 10px;border-radius:20px;font-weight:400}
+.card p{color:#555;margin-bottom:6px;font-size:14.5px}
+.card ul{list-style:none;padding:0}
+.card ul li{padding:6px 0 6px 22px;position:relative;color:#555;font-size:14.5px;border-bottom:1px dashed #f0ebe5}
+.card ul li:last-child{border-bottom:none}
+.card ul li::before{content:'•';position:absolute;left:5px;color:#FF6347;font-weight:700}
+.card ul li strong{color:#2c2c2c}
+.two-col{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.three-col{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
+.highlight-box{background:linear-gradient(135deg,#fdf6ef,#fef0e6);border-radius:12px;padding:20px;margin:16px 0;border:1px solid #f0d5c0}
+.highlight-box h4{color:#CC0000;font-size:0.95rem;margin-bottom:6px}
+.highlight-box p{color:#666;font-size:14px}
+.pos-card{background:linear-gradient(135deg,#fff8f3,#fff);border:1px solid #fde0d0;border-radius:12px;padding:16px 18px;margin:14px 0}
+.pos-card .pos-title{font-size:14px;font-weight:600;color:#CC0000;margin-bottom:6px}
+.pos-card p{font-size:13.5px;color:#555}
+.price-table{width:100%;border-collapse:collapse;margin:14px 0;font-size:14px}
+.price-table th{background:#CC0000;color:#fff;padding:10px 14px;text-align:left;font-weight:500}
+.price-table td{padding:9px 14px;border-bottom:1px solid #eee}
+.price-table tr:nth-child(even){background:#fdf9f6}
+.price-table .total{font-weight:700;background:#fef0e6!important}
+.warning-box{background:#fff8e6;border-left:4px solid #f5a623;padding:14px 18px;border-radius:0 8px 8px 0;margin:14px 0;font-size:13.5px;color:#7a5a30}
+.tag{display:inline-block;background:#fbe8dd;color:#CC0000;padding:2px 12px;border-radius:20px;font-size:11px;margin-right:6px;margin-bottom:4px}
+.footer-bar{background:#CC0000;color:rgba(255,255,255,0.85);text-align:center;padding:28px 20px;font-size:13px}
+.footer-bar strong{color:#ffd76a}
+.quick-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:14px 0}
+.quick-item{background:#fff;border-radius:12px;padding:16px 12px;text-align:center;box-shadow:0 2px 10px rgba(0,0,0,0.04);border-top:3px solid #FF6347}
+.quick-item .num{font-size:1.5rem;font-weight:800;color:#CC0000}
+.quick-item .label{font-size:12px;color:#999;margin-top:2px}
+@media(max-width:768px){.two-col{grid-template-columns:1fr}.three-col{grid-template-columns:1fr}.section{padding:35px 0}.card{padding:18px}.quick-grid{grid-template-columns:repeat(2,1fr)}}
+</style>
+</head>
+<body>
+
+<div class="cover">
+  <div class="tag">🔥 川渝风味 · 煎锅鱼烤鱼 · 汉沽</div>
+  <h1>川渝煎锅鱼烤鱼</h1>
+  <div class="sub">—— 汉沽城区店 全案运营方案 ——</div>
+  <div class="meta">
+    <span>📍 汉沽寨上街道·四季花苑B座</span>
+    <span>🏠 150㎡ · 大厅+4包间</span>
+    <span>💳 美团智能版收银</span>
+    <span>📅 2026年8月</span>
+  </div>
+</div>
+<div class="container">
+
+<div class="section">
+  <div class="section-title">📋 零、门店信息速览</div>
+  <div class="section-subtitle">一页看懂这家店</div>
+  <div class="quick-grid">
+    <div class="quick-item"><div class="num">150㎡</div><div class="label">店铺面积</div></div>
+    <div class="quick-item"><div class="num">~66座</div><div class="label">总餐位</div></div>
+    <div class="quick-item"><div class="num">¥70-80</div><div class="label">预估人均</div></div>
+    <div class="quick-item"><div class="num">¥12-18万</div><div class="label">预估月营收</div></div>
+  </div>
+  <div class="card">
+    <h3>🏪 门店画像</h3>
+    <ul>
+      <li><strong>店名：</strong>川渝煎锅鱼烤鱼</li>
+      <li><strong>位置：</strong>汉沽城区·寨上街道四季花苑B座-93号</li>
+      <li><strong>面积：</strong>150㎡</li>
+      <li><strong>布局：</strong>楼下大厅6个六人桌（36座），楼上4个包间（3个八人桌+1个六人桌=30座），合计约66座</li>
+      <li><strong>品类：</strong>川渝风味·煎锅鱼/烤鱼（正餐品类）</li>
+      <li><strong>核心客群：</strong>汉沽本地居民聚餐+朋友聚会+家庭用餐</li>
+      <li><strong>经营关键词：</strong>煎锅鱼 · 烤鱼 · 川菜 · 聚餐 · 夜宵</li>
+    </ul>
+  </div>
+  <div class="highlight-box">
+    <h4>💡 一句话定位</h4>
+    <p>「汉沽人吃鱼的首选地」—— 川渝煎锅鱼，麻辣鲜香，一锅两吃，楼上包间聚会、楼下大厅热闹，人均七八十吃得过瘾。</p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">📌 一、位置与客群分析</div>
+  <div class="section-subtitle">汉沽城区社区底商，家庭聚餐刚需</div>
+  <div class="card">
+    <h3>📍 位置画像</h3>
+    <p>四季花苑是汉沽城区成熟住宅小区，寨上街道沿街底商，辐射周边多个小区。三大客群：</p>
+    <ul>
+      <li><strong>社区居民：</strong>家庭聚餐、朋友聚会，周末/节假日消费主力，认口味、求实惠</li>
+      <li><strong>周边上班族/商户：</strong>工作餐小聚，中午/晚上改善伙食</li>
+      <li><strong>过路客：</strong>寨上街道沿街车流人流，门头醒目可截流</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>🎯 经营定位</h3>
+    <ul>
+      <li><strong>形式：</strong>堂食为主（大厅+包间），可拓展外卖（烤鱼外带/夜宵档）</li>
+      <li><strong>核心卖点：</strong>川渝风味煎锅鱼/烤鱼，活鱼现杀，麻辣鲜香，一锅两吃</li>
+      <li><strong>预估人均：</strong>¥70-80（烤鱼+配菜+凉菜+主食+饮品）</li>
+      <li><strong>高峰时段：</strong>晚市17:30-20:30（正餐为主），周末午市11:30-13:30</li>
+      <li><strong>定价策略：</strong>烤鱼定价¥68-128/条（按鱼种），配菜¥6-15/份，凉菜¥12-28/份</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">🐟 二、产品结构 · 煎锅鱼+烤鱼+川菜</div>
+  <div class="section-subtitle">鱼为主打，配菜丰富，满足聚餐场景</div>
+  <div class="two-col">
+    <div class="card">
+      <h3>🔥 招牌鱼系列（核心）</h3>
+      <ul>
+        <li><strong>煎锅鱼（麻辣/藤椒/蒜香）：</strong>¥78-98/份（2-3人份）</li>
+        <li><strong>烤鱼（麻辣/香辣/豆豉/蒜香）：</strong>¥68-128/条（按鱼种，草鱼/清江鱼/鮰鱼）</li>
+        <li><strong>酸菜鱼：</strong>¥68-88/份（2-3人份）</li>
+        <li><strong>纸包鱼/怪味鱼：</strong>¥78-108/份（特色口味）</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>🥘 配菜+凉菜+主食</h3>
+      <ul>
+        <li><strong>涮菜配菜：</strong>¥6-15/份（土豆/藕片/豆皮/宽粉/金针菇等）</li>
+        <li><strong>凉菜：</strong>¥12-28/份（口水鸡/夫妻肺片/皮蛋豆腐/拍黄瓜）</li>
+        <li><strong>川味小炒：</strong>¥22-38/份（回锅肉/宫保鸡丁/鱼香肉丝）</li>
+        <li><strong>主食：</strong>¥3-8/份（米饭/蛋炒饭/葱油饼）</li>
+        <li><strong>饮品：</strong>¥5-12/份（酸梅汤/凉茶/啤酒/饮料）</li>
+      </ul>
+    </div>
+  </div>
+  <div class="highlight-box">
+    <h4>💡 产品策略</h4>
+    <p>① 活鱼现杀=核心体验，鱼缸放门口展示，现杀现做；<br>
+    ② 煎锅鱼一锅两吃：先吃鱼后涮菜，延长用餐体验、提高客单价；<br>
+    ③ 推出2-3人/4-6人/8-10人套餐，覆盖大厅和包间不同场景；<br>
+    ④ 晚市9点后推夜宵烤鱼+啤酒套餐，拓展营业时段。</p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">💴 三、定价策略 · 271法则</div>
+  <div class="section-subtitle">人均70-80元，套餐组合拳</div>
+  <div class="card">
+    <table class="price-table">
+      <tr><th>类型</th><th>产品</th><th>定价</th><th>作用</th></tr>
+      <tr><td>🔥 引流款</td><td>双人烤鱼套餐（烤鱼1条+2配菜+2米饭）</td><td>¥68（原价¥98）</td><td>冲销量、拉新客</td></tr>
+      <tr><td>💎 利润款</td><td>4人煎锅鱼套餐（煎锅鱼+4配菜+2凉菜+主食）</td><td>¥168</td><td>主力走量，毛利最高</td></tr>
+      <tr><td>💎 利润款</td><td>6人聚餐套餐（煎锅鱼+烤鱼+4配菜+3凉菜）</td><td>¥268</td><td>包间/聚会场景</td></tr>
+      <tr><td>👑 形象款</td><td>10人全家福（煎锅鱼+烤鱼+酸菜鱼+6配菜+4凉菜）</td><td>¥468</td><td>包间宴请，拉高品牌</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">💳 四、美团智能版收银 · 核心部署</div>
+  <div class="section-subtitle">正餐翻台+包间服务，收银必须智能</div>
+  <div class="card">
+    <h3>📋 硬件配置方案 <span class="badge">美团智能版</span></h3>
+    <ul>
+      <li><strong>双屏收银机×1：</strong>前台结算，客显同步金额，支持扫码/刷卡/会员支付</li>
+      <li><strong>扫码点餐：</strong>每桌一码，扫码即看菜单→下单→后厨自动出票，减少服务员跑单</li>
+      <li><strong>包间管理：</strong>楼上4个包间独立管理，可设置最低消费/包间服务费</li>
+      <li><strong>厨房分单：</strong>烤鱼/煎锅鱼/凉菜/小炒分别出票到对应档口，不乱单</li>
+      <li><strong>团购核销：</strong>点评/抖音团购券扫码即核销，不用人工登记</li>
+      <li><strong>数据看板：</strong>每日营收、菜品销量TOP10、包间上座率一目了然</li>
+    </ul>
+  </div>
+  <div class="pos-card">
+    <div class="pos-title">📟 为什么烤鱼店必须用美团收银？</div>
+    <p>① 正餐翻台慢，扫码点餐省去服务员写单、传菜环节，每桌省10分钟<br>
+    ② 包间独立管理，结账不串单，包间费/服务费自动计算<br>
+    ③ 团购券核销+外卖接单一机搞定，不用多系统切换<br>
+    ④ 会员营销自动发券，聚餐客群复购率提升30%以上<br>
+    ⑤ 新店暂无星级，收银系统帮你在点评上快速上线团购冲销量</p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">🎫 五、团购套餐设计</div>
+  <div class="section-subtitle">新店零星级，团购冲销量是关键</div>
+  <div class="card">
+    <table class="price-table">
+      <tr><th>套餐</th><th>内容</th><th>价格</th><th>定位</th></tr>
+      <tr><td>🔥 引流款</td><td>双人烤鱼套餐（烤鱼+2配菜+米饭）</td><td>¥68</td><td>冲销量榜，拉新客</td></tr>
+      <tr><td>💎 主力款</td><td>4人煎锅鱼套餐（煎锅鱼+4配菜+2凉菜）</td><td>¥158</td><td>日常走量主力</td></tr>
+      <tr><td>👑 品质款</td><td>6人聚餐套餐（煎锅鱼+烤鱼+4配菜+3凉菜）</td><td>¥258</td><td>包间场景</td></tr>
+      <tr><td>💰 囤货款</td><td>5次双人烤鱼卡</td><td>¥298</td><td>锁复购</td></tr>
+    </table>
+  </div>
+  <div class="highlight-box">
+    <h4>📌 团购运营节奏</h4>
+    <p>首月主推<strong>68元双人烤鱼</strong>冲"汉沽烤鱼"销量榜→次月推<strong>158元4人餐+298元5次卡</strong>提毛利→稳定期<strong>258元6人餐</strong>拉包间客单。新店零星级，团购跑量出星级是第一目标。</p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">📱 六、抖音+点评 · 双平台运营</div>
+  <div class="section-subtitle">新店冲星级，短视频带流量</div>
+  <div class="two-col">
+    <div class="card">
+      <h3>⭐ 点评运营</h3>
+      <ul>
+        <li><strong>开店即入驻：</strong>完善门店信息（菜单图、环境图、活鱼展示）</li>
+        <li><strong>新店流量扶持：</strong>7天内上线团购，抓住流量窗口</li>
+        <li><strong>收藏打卡：</strong>收藏店铺+打卡送酸梅汤/凉菜</li>
+        <li><strong>霸王餐：</strong>5-8位定向汉沽本地人群，产带图好评</li>
+        <li><strong>差评处理：</strong>24小时内回复，真诚道歉+补偿方案</li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>🎵 抖音营销</h3>
+      <ul>
+        <li><strong>短视频内容：</strong>活鱼现杀→煎锅沸腾→食客特写，烟火气拉满</li>
+        <li><strong>抖音团购：</strong>上线双人烤鱼套餐，与点评同步</li>
+        <li><strong>达人探店：</strong>邀请2-3位汉沽本地美食达人，拍视频+挂团购</li>
+        <li><strong>定位运营：</strong>门店定位"汉沽煎锅鱼""寨上街道美食"话题</li>
+      </ul>
+    </div>
+  </div>
+  <div class="warning-box">
+    <strong>⚠️ 合规提醒：</strong><br>
+    ① 严禁「好评返现」「晒单返红包」——用「收藏打卡送饮品」替代<br>
+    ② 回复差评要真诚：先道歉→给方案→邀请再来<br>
+    ③ 抖音团购与点评团购价格保持一致，避免比价客诉
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">💎 七、会员储值锁客</div>
+  <div class="section-subtitle">聚餐客群=圈子消费，储值锁定回头客</div>
+  <div class="card">
+    <table class="price-table">
+      <tr><th>方案</th><th>内容</th><th>适用人群</th></tr>
+      <tr><td>充200送30</td><td>充200到账230，相当于87折</td><td>偶尔来的散客</td></tr>
+      <tr><td>充500送100</td><td>充500到账600，相当于83折</td><td>常来聚餐的老客</td></tr>
+      <tr><td>充1000送250</td><td>充1000到账1250，相当于8折</td><td>周边居民/企业团建</td></tr>
+      <tr><td>积分</td><td>消费1元积1分，200分抵¥10</td><td>全员自动累积</td></tr>
+    </table>
+  </div>
+  <div class="card">
+    <h3>🎯 开卡话术（对客建议）</h3>
+    <ul>
+      <li>「您几位常来聚餐，充500送100，今天这顿就能用，相当于白送一桌菜」</li>
+      <li>「包间聚餐充1000送250，公司团建、家庭聚会都用得上，一年省大几百」</li>
+    </ul>
+  </div>
+  <div class="pos-card">
+    <div class="pos-title">📟 收银融合</div>
+    <p>买单时收银端自动提示「充值立减」，一键开卡；沉睡30天自动发券唤醒；储值余额、消费记录全系统管理。</p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">🎊 八、开业活动方案</div>
+  <div class="section-subtitle">新店一炮而红，汉沽人都知道</div>
+  <div class="card">
+    <table class="price-table">
+      <tr><th>时间</th><th>活动</th><th>目的</th></tr>
+      <tr><td>Day1-3</td><td>全场8折，每桌送酸梅汤一扎</td><td>引爆人气，制造排队</td></tr>
+      <tr><td>Day4-7</td><td>双人烤鱼套餐¥68（原价¥98）</td><td>冲点评团购销量榜</td></tr>
+      <tr><td>次周</td><td>储值狂欢：充200送40、充500送120</td><td>锁定首批老客</td></tr>
+      <tr><td>长期</td><td>每周三「会员日」烤鱼8折</td><td>培养会员消费习惯</td></tr>
+    </table>
+  </div>
+  <div class="card">
+    <h3>📢 地推+线上组合</h3>
+    <ul>
+      <li><strong>小区地推：</strong>四季花苑及周边小区电梯广告+DM单，扫码领券</li>
+      <li><strong>开业横幅：</strong>"川渝煎锅鱼烤鱼开业啦！双人烤鱼仅68元"</li>
+      <li><strong>抖音探店：</strong>开业前邀请达人拍摄，开业当天发视频</li>
+      <li><strong>亲友试吃：</strong>开业前邀请周边居民免费试吃，攒首批口碑</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">💰 九、预算规划</div>
+  <div class="section-subtitle">新店投入，钱花在刀刃上</div>
+  <div class="card">
+    <table class="price-table">
+      <tr><th>项目</th><th>费用（元）</th><th>备注</th></tr>
+      <tr><td>美团智能版收银系统</td><td>¥3,000-5,000</td><td>双屏机+软件，先软件后硬件</td></tr>
+      <tr><td>扫码点餐桌贴/台卡</td><td>¥300-600</td><td>每桌一张</td></tr>
+      <tr><td>点评入驻+霸王餐</td><td>¥1,500-2,500</td><td>新店冲星级必要</td></tr>
+      <tr><td>抖音探店达人</td><td>¥2,000-4,000</td><td>2-3位达人拍摄</td></tr>
+      <tr><td>开业物料（横幅/DM/海报）</td><td>¥1,000-2,000</td><td>含小区地推</td></tr>
+      <tr><td>开业折扣让利</td><td>¥2,000-3,000</td><td>7天活动+储值赠送</td></tr>
+      <tr><td>会员储值营销金</td><td>¥500-1,000</td><td>充值赠送成本分摊</td></tr>
+      <tr class="total"><td>首月运营总投入</td><td>¥10,300-18,100</td><td>一次性约¥6,800+月运营¥3,500+</td></tr>
+    </table>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">📈 十、营收预估</div>
+  <div class="section-subtitle">算清楚账，老板有信心</div>
+  <div class="card">
+    <table class="price-table">
+      <tr><th>指标</th><th>保守</th><th>乐观</th><th>测算依据</th></tr>
+      <tr><td>日均客流</td><td>60人</td><td>120人</td><td>大厅+包间+外卖</td></tr>
+      <tr><td>人均消费</td><td>¥65</td><td>¥80</td><td>烤鱼+配菜+饮品</td></tr>
+      <tr><td>日均营收</td><td>¥3,900</td><td>¥9,600</td><td>晚市为主+午市+周末</td></tr>
+      <tr><td>月营收</td><td>¥11.7万</td><td>¥28.8万</td><td>月均30天</td></tr>
+      <tr><td>月毛利(约55%)</td><td>¥6.4万</td><td>¥15.8万</td><td>正餐正常毛利</td></tr>
+    </table>
+  </div>
+  <div class="highlight-box">
+    <h4>📌 关键结论</h4>
+    <p>150㎡+包间配置，月营收预估<strong>¥12-29万</strong>，属于正餐类（店均毛利门槛>2000元即可走线下安装）。装修投入约¥30-50万，预计<strong>3-6个月回本</strong>。</p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">⚔️ 十一、竞品分析</div>
+  <div class="section-subtitle">汉沽烤鱼赛道，抢占先机</div>
+  <div class="card">
+    <table class="price-table">
+      <tr><th>竞品类型</th><th>特点</th><th>我们的优势</th></tr>
+      <tr><td>汉沽其他烤鱼店</td><td>品类少，汉沽烤鱼竞争不激烈</td><td>川渝风味差异化，煎锅鱼+烤鱼双线</td></tr>
+      <tr><td>火锅/串串店</td><td>聚餐场景重叠</td><td>烤鱼=目的性消费，想吃鱼只能来这</td></tr>
+      <tr><td>小区周边小炒店</td><td>价格低但无特色</td><td>150㎡+包间适合聚餐，有排面</td></tr>
+    </table>
+  </div>
+  <div class="highlight-box">
+    <h4>⚡ 差异化定位</h4>
+    <p>汉沽烤鱼品类竞争小，关键是做好<strong>「汉沽烤鱼首选」</strong>的认知——用点评星级+团购销量+抖音探店，锁定"汉沽吃鱼就去川渝煎锅鱼"的消费心智。150㎡的大店加包间，天然适合聚餐场景。</p>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">🗓️ 十二、日常运营SOP</div>
+  <div class="section-subtitle">每天照着做，生意稳中涨</div>
+  <div class="card">
+    <h3>☀️ 营业前（开店前2小时）</h3>
+    <ul>
+      <li>活鱼到货验收，检查鱼的新鲜度</li>
+      <li>备菜：配菜切好、凉菜备好、调料备齐</li>
+      <li>设备检查：收银机、扫码点餐、出票机测试</li>
+      <li>包间准备：包间卫生、餐具摆台、空调预设</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>🌙 晚市高峰（17:00-20:30）</h3>
+    <ul>
+      <li>引导扫码点餐，减少服务员写单时间</li>
+      <li>烤鱼/煎锅鱼现杀现做，保证出餐速度（15-20分钟）</li>
+      <li>包间提前预约管理，合理安排座位</li>
+      <li>团购券核销+会员储值引导，收银端一键操作</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>🌃 营业后（收市1小时）</h3>
+    <ul>
+      <li>数据复盘：看收银端今日营收、菜品销量TOP10、包间上座率</li>
+      <li>明日备货：按今日销量调整活鱼采购量</li>
+      <li>点评回复：处理当日新评价</li>
+      <li>会员运营：沉睡会员发券唤醒</li>
+    </ul>
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">📅 十三、30天开业倒计时</div>
+  <div class="section-subtitle">新店开业，步步为营</div>
+  <div class="card">
+    <h3>🔨 第1-2周 · 筹备期</h3>
+    <ul>
+      <li>装修收尾，预留收银系统网线/电源位</li>
+      <li>美团智能版收银安装调试（扫码点餐+厨房分单+包间管理测试）</li>
+      <li>菜单设计+定价确认（烤鱼/煎锅鱼/配菜/套餐）</li>
+      <li>食材供应链锁定（活鱼供应商+配菜供应商）</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>📸 第3周 · 蓄水期</h3>
+    <ul>
+      <li>门头招牌+围挡海报上墙（预告开业，放「双人烤鱼68」钩子）</li>
+      <li>大众点评店铺入驻+团购上线（先上68引流款）</li>
+      <li>抖音达人探店预约拍摄</li>
+      <li>周边小区DM单发放（扫码领券）</li>
+    </ul>
+  </div>
+  <div class="card">
+    <h3>🎉 第4周 · 试营业+开业</h3>
+    <ul>
+      <li>试营业3天（邀请亲友+周边居民免费试吃，磨合流程）</li>
+      <li><strong>正式开业：</strong>7天活动启动+储值推广+冲点评热门</li>
+      <li>抖音探店视频发布+团购同步上线</li>
+      <li>每日复盘：菜品销量、损耗、评价反馈</li>
+    </ul>
+  </div>
+  <div class="warning-box">
+    <strong>⚠️ 关键提醒：</strong><br>
+    ① 活鱼 freshness=核心，每日限量供应，卖完即止，制造稀缺感<br>
+    ② 包间提前预约制，避免高峰期空包间浪费<br>
+    ③ 禁「好评返现」→ 用「收藏打卡送饮品」<br>
+    ④ 大众点评店名提前注册占位（防抢注）<br>
+    ⑤ 所有物料署名「策划：苏苏」
+  </div>
+</div>
+
+<div class="section">
+  <div class="section-title">🛡️ 十四、风险预案 & 总结</div>
+  <div class="section-subtitle">稳扎稳打，步步为营</div>
+  <div class="card">
+    <h3>⚠️ 三大风险与对策</h3>
+    <ul>
+      <li><strong>风险1 · 客流培育期：</strong>新店暂无星级，前期客流少 → <strong>对策：</strong>团购68元引流+抖音探店+小区地推三管齐下</li>
+      <li><strong>风险2 · 食材成本波动：</strong>活鱼价格季节性上涨 → <strong>对策：</strong>锁定2家供应商比价，套餐结构灵活调整</li>
+      <li><strong>风险3 · 竞品模仿：</strong>周边开新烤鱼店 → <strong>对策：</strong>先发优势+点评星级壁垒+会员锁客，后来者难追</li>
+    </ul>
+  </div>
+  <div class="highlight-box">
+    <h4>🎯 方案总结 · 三步走</h4>
+    <p><strong>第一步 · 打基础：</strong>收银系统上线+扫码点餐，新店快速开业接客<br>
+    <strong>第二步 · 冲口碑：</strong>团购68引流+抖音探店+点评冲星级，做到汉沽烤鱼第一名<br>
+    <strong>第三步 · 锁客源：</strong>会员储值+包间预约+夜宵档，把聚餐客群变成铁粉</p>
+  </div>
+  <div class="pos-card">
+    <div class="pos-title">🤝 合作建议</div>
+    <p>收银系统是这套方案的地基——<strong>先付软件费即可上线</strong>，硬件可谈分期。150㎡正餐店，店均毛利超2000元可走线下安装，老板不用操心。扫码点餐省人工、团购核销快、数据看板帮决策，老板自己就能管店。</p>
+  </div>
+</div>
+
+<div class="footer-bar">
+  <p>🔥 川渝煎锅鱼烤鱼（汉沽店）· 全案运营方案</p>
+  <p style="margin-top:4px;">策划：<strong>苏苏</strong> | 美团智能版收银系统合作伙伴 | 2026年8月</p>
+</div>
+</div>
+</body>
+</html>
